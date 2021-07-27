@@ -8,7 +8,7 @@ if sys.version_info[1] > 5:
 else:
 	from typing.io import TextIO
 
-/* parser/listener/visitor header section */
+# parser/listener/visitor header section
 
 def serializedATN():
     with StringIO() as buf:
