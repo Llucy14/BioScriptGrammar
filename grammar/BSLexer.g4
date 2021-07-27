@@ -28,6 +28,9 @@ DISPOSE:        'dispose';
 GRADIENT:       'gradient';
 STORE:          'store';
 RANGE:          'range';
+CAPTURE:        'capture';
+RESUSPEND:      'resuspend';
+WASH:           'wash';
 
 // Other Keywords
 AT:             'at';
