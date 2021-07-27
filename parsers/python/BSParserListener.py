@@ -1,10 +1,10 @@
-# Generated from /Users/labtop/PyCharm/BioScript/grammar/grammar/BSParser.g4 by ANTLR 4.8
+# Generated from /Users/lucyann/IdeaProjects/BioScriptGrammar/grammar/BSParser.g4 by ANTLR 4.9.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .BSParser import BSParser
 else:
     from BSParser import BSParser
-# /* parser/listener/visitor header section */
+# parser/listener/visitor header section */
 
 # This class defines a complete listener for a parse tree produced by BSParser.
 class BSParserListener(ParseTreeListener):
@@ -204,6 +204,33 @@ class BSParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by BSParser#useinType.
     def exitUseinType(self, ctx:BSParser.UseinTypeContext):
+        pass
+
+
+    # Enter a parse tree produced by BSParser#capture.
+    def enterCapture(self, ctx:BSParser.CaptureContext):
+        pass
+
+    # Exit a parse tree produced by BSParser#capture.
+    def exitCapture(self, ctx:BSParser.CaptureContext):
+        pass
+
+
+    # Enter a parse tree produced by BSParser#resuspend.
+    def enterResuspend(self, ctx:BSParser.ResuspendContext):
+        pass
+
+    # Exit a parse tree produced by BSParser#resuspend.
+    def exitResuspend(self, ctx:BSParser.ResuspendContext):
+        pass
+
+
+    # Enter a parse tree produced by BSParser#wash.
+    def enterWash(self, ctx:BSParser.WashContext):
+        pass
+
+    # Exit a parse tree produced by BSParser#wash.
+    def exitWash(self, ctx:BSParser.WashContext):
         pass
 
 

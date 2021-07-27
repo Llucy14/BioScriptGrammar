@@ -129,6 +129,9 @@ statements
     | store
     | math
     | numberAssignment
+    | capture
+    | resuspend
+    | wash
     ;
 
 ifStatement
@@ -162,6 +165,18 @@ usein
 
 useinType
     : LPAREN (SLE | SEQ | SGE | FLE | FEQ | FGE) RPAREN
+    ;
+
+capture
+    : variableDefinition CAPTURE IDENTIFIER WITH IDENTIFIER
+    ;
+
+resuspend
+    : variableDefinition RESUSPEND IDENTIFIER
+    ;
+
+wash
+    : variableDefinition WASH IDENTIFIER WITH IDENTIFIER
     ;
 
 /********************************************************

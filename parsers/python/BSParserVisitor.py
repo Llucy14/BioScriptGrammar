@@ -1,10 +1,10 @@
-# Generated from /Users/labtop/PyCharm/BioScript/grammar/grammar/BSParser.g4 by ANTLR 4.8
+# Generated from /Users/lucyann/IdeaProjects/BioScriptGrammar/grammar/BSParser.g4 by ANTLR 4.9.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .BSParser import BSParser
 else:
     from BSParser import BSParser
-# /* parser/listener/visitor header section */
+# parser/listener/visitor header section
 
 # This class defines a complete generic visitor for a parse tree produced by BSParser.
 
@@ -117,6 +117,21 @@ class BSParserVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by BSParser#useinType.
     def visitUseinType(self, ctx:BSParser.UseinTypeContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by BSParser#capture.
+    def visitCapture(self, ctx:BSParser.CaptureContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by BSParser#resuspend.
+    def visitResuspend(self, ctx:BSParser.ResuspendContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by BSParser#wash.
+    def visitWash(self, ctx:BSParser.WashContext):
         return self.visitChildren(ctx)
 
 
