@@ -1,10 +1,10 @@
-# Generated from /Users/lucyann/IdeaProjects/BioScriptGrammar/grammar/BSParser.g4 by ANTLR 4.9.1
+# Generated from /Users/lucyann/Documents/code/BioScriptGrammar/grammar/BSParser.g4 by ANTLR 4.9.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .BSParser import BSParser
 else:
     from BSParser import BSParser
-# parser/listener/visitor header section
+# parser/listener/visitor header section#!/usr/bin/env bash */
 
 # This class defines a complete generic visitor for a parse tree produced by BSParser.
 
