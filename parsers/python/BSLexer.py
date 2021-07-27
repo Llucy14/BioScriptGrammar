@@ -597,7 +597,7 @@ class BSLexer(Lexer):
     STORE = 20
     RANGE = 21
     CAPTURE = 22
-    RESUSUPEND = 23
+    RESUSPEND = 23
     WASH = 24
     AT = 25
     WITH = 26
@@ -791,7 +791,7 @@ class BSLexer(Lexer):
             "IF", "ELSE", "REPEAT", "WHILE", "FUNCTION", "RETURN", "MANIFEST", 
             "MODULE", "STATIONARY", "FUNCTIONS", "INSTRUCTIONS", "DETECT", 
             "MIX", "SPLIT", "HEAT", "DRAIN", "DISPENSE", "DISPOSE", "GRADIENT", 
-            "STORE", "RANGE", "CAPTURE", "RESUSUPEND", "WASH", "AT", "WITH", 
+            "STORE", "RANGE", "CAPTURE", "RESUSPEND", "WASH", "AT", "WITH", 
             "FOR", "INTO", "TIMES", "ON", "OF", "UNITS", "USEIN", "SLE", 
             "SEQ", "SGE", "FLE", "FEQ", "FGE", "NAT", "REAL", "MAT", "BOOL", 
             "IDENTIFIER", "STRING_LITERAL", "BOOL_LITERAL", "FLOAT_LITERAL", 
@@ -836,7 +836,7 @@ class BSLexer(Lexer):
     ruleNames = [ "IF", "ELSE", "REPEAT", "WHILE", "FUNCTION", "RETURN", 
                   "MANIFEST", "MODULE", "STATIONARY", "FUNCTIONS", "INSTRUCTIONS", 
                   "DETECT", "MIX", "SPLIT", "HEAT", "DRAIN", "DISPENSE", 
-                  "DISPOSE", "GRADIENT", "STORE", "RANGE", "CAPTURE", "RESUSUPEND", 
+                  "DISPOSE", "GRADIENT", "STORE", "RANGE", "CAPTURE", "RESUSPEND", 
                   "WASH", "AT", "WITH", "FOR", "INTO", "TIMES", "ON", "OF", 
                   "UNITS", "USEIN", "SLE", "SEQ", "SGE", "FLE", "FEQ", "FGE", 
                   "NAT", "REAL", "MAT", "BOOL", "IDENTIFIER", "STRING_LITERAL", 
