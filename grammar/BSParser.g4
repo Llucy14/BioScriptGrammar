@@ -172,11 +172,11 @@ capture
     ;
 
 resuspend
-    : variableDefinition RESUSPEND IDENTIFIER
+    : RESUSPEND variable WITH IDENTIFIER
     ;
 
 wash
-    : variableDefinition WASH IDENTIFIER WITH IDENTIFIER
+    : WASH variable WITH IDENTIFIER
     ;
 
 /********************************************************
