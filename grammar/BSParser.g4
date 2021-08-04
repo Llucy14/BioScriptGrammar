@@ -168,15 +168,15 @@ useinType
     ;
 
 capture
-    : variableDefinition CAPTURE IDENTIFIER WITH IDENTIFIER
+    : variableDefinition CAPTURE (unitTracker)? variable WITH IDENTIFIER
     ;
 
 resuspend
-    : RESUSPEND variable WITH IDENTIFIER
+    : RESUSPEND variable WITH (unitTracker)? variable
     ;
 
 wash
-    : WASH variable WITH IDENTIFIER
+    : WASH (variable | IDENTIFIER) WITH (unitTracker)? variable
     ;
 
 /********************************************************
